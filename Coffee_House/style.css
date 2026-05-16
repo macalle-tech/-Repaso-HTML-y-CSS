@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f0eb;
+}
+
+header {
+    background-color: #3b1f0e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #3b1f0e;
+}
+
+/* Flexbox para organizar los productos en fila */
+.menu {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* Cada tarjeta de producto */
+.producto {
+    flex: 1;
+    background-color: white;
+    border: 2px solid #3b1f0e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.precio {
+    color: #b5451b;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.botoncontacto {
+    background-color: #3b1f0e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #3b1f0e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.imagen-cafe {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
